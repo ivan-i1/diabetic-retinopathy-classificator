@@ -19,7 +19,7 @@ batch_size = 32
 buffer_size = 4759
 learning_rate = 1e-4
 
-image_dir = './MLImages/All64'
+image_dir = './MLImages/tempAll'
 metadata_path = './MLImages/All64/metadata.csv'
 checkpoint_dir = './training_checkpoints_gan'
 

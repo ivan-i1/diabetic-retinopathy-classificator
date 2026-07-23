@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow.keras import layers, models
 
-image_dir = './MLImages/Messidor1/All224'
-metadata_path = './MLImages/Messidor1/Annotation_Base_CSV/Annotation_All.csv'
+image_dir = '../MLImages/Messidor1/All'
+metadata_path = '../MLImages/Messidor1/Annotation_Base_CSV/Annotation_All.csv'
 img_height = 224
 img_width = 224
 batch_size = 32
